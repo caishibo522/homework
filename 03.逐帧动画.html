@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    div {
+      margin: 0 auto;
+    }
+    .hua {
+      width: 73px;
+      height: 119px;
+      background: url("./images/逐帧动画素材图/hua.jpg") 0 0 no-repeat;
+      animation: run 2s steps(6) infinite;
+    }
+    @keyframes run {
+      0% {
+        background-position-x: 0;
+      }
+      100% {
+        background-position-x: -438px;
+      }
+    }
+    .jd {
+      width: 662px;
+      height: 682px;
+      background: url("./images/逐帧动画素材图/jd.png") 0 0 no-repeat;
+      animation: run1 3s steps(3) infinite;
+    }
+    @keyframes run1 {
+      0% {
+        background-position-y: 0;
+      }
+      100% {
+        background-position-y: -2045px;
+      }
+    }
+    .loading {
+      width: 100px;
+      height: 100px;
+      background: url("./images/逐帧动画素材图/loading.png") 0 0 no-repeat;
+      animation: run2 1s steps(8) infinite;
+    }
+    @keyframes run2 {
+      0% {
+        background-position-x: 0;
+      }
+      100% {
+        background-position-x: -800px;
+      }
+    }
+    .run {
+      width: 140px;
+      height: 140px;
+      background: url("./images/逐帧动画素材图/run.png") 0 0 no-repeat;
+      animation: run3 1s steps(12) infinite;
+    }
+    @keyframes run3 {
+      0% {
+        background-position-x: 0;
+      }
+      100% {
+        background-position-x: -1680px;
+      }
+    }
+    .run2 {
+      width: 137px;
+      height: 156px;
+      background: url("./images/逐帧动画素材图/run2.png") 0 0 no-repeat;
+      animation: run4 1s steps(10) infinite;
+    }
+    @keyframes run4 {
+      0% {
+        background-position-x: 0;
+      }
+      100% {
+        background-position-x: -1370px;
+      }
+    }
+    .walk {
+      width: 180px;
+      height: 293px;
+      background: url("./images/逐帧动画素材图/walk.jpg") 0 0 no-repeat;
+      animation: run5 1s steps(6) infinite;
+    }
+    @keyframes run5 {
+      0% {
+        background-position-x: 0;
+      }
+      100% {
+        background-position-x: -1080px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="hua"></div>
+<div class="jd"></div>
+<div class="loading"></div>
+<div class="run"></div>
+<div class="run2"></div>
+<div class="walk"></div>
+</body>
+</html>
